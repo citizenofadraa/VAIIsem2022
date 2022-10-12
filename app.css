@@ -1,4 +1,40 @@
-.menu {
+body {
+    background-color: lightgrey;
+}
+
+.Title {
     text-align: center;
     background-color: orange;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.Menu {
+    text-align: center;
+    background-color: black;
+}
+
+.Menu a {
+    background-color: black;
+    float: left;
+    color: white;
+    font-family: "Arial", Helvetica, sans-serif;
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.Menu a:hover {
+    background-color: gray;
+}
+
+.Footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-family: "Arial", Helvetica, sans-serif;
+    width: 100%;
+    background-color: #333;
+    color: white;
 }
